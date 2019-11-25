@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+<body>
+    <h1> Currently at the ND site: </h1>
+    <p>
+        {% for key,value in bluetooth_devices.items %}<br/> <br/>Device MAC: {{ key }} <br/>Inner Value: {{ value }}{% endfor %}
+        <br/> <br/> <br/>
+        {% for key,value in maps.items %}Map ID: {{ key }} <br/>Inner Value: {{ value }}{% endfor %}
+        <br/> <br/> <br/>
+        {% for key,value in mist_devices.items %}Mist Device MAC: {{ key }} <br/>Inner Value: {{ value }}{% endfor %}
+        <br/> <br/> <br/>
+        {% for key,value in virtual_beacons.items %}Virtual Beacon ID: {{ key }} <br/>Inner Value: {{ value }}{% endfor %}
+    </p>
+</body>
+{% endblock %}
