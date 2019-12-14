@@ -1,4 +1,4 @@
-# webpage
+# Web App for Alpha Testing
 Django webpage for Tembo-AI
 
 
