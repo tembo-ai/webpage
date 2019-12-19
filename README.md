@@ -1,4 +1,4 @@
-# Web App for Alpha Testing
+# Web App for Alpha Testing :computer:
 Django webpage for Tembo-AI
 
 
