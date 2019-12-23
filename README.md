@@ -1,5 +1,5 @@
 # Web App for Alpha Testing :computer:
-Django webpage for Tembo-AI
+Django webpage for Tembo AI
 
 
 Enter virtual environment (needed in order to start the server, run these commands from the mysite directory):
