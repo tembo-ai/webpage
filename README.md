@@ -17,5 +17,3 @@ See site:
 
 
 To see what is being returned form the MIST api or change its format, go to initial_test/util.py
-
-##
